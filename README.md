@@ -37,7 +37,8 @@
 ## create new customer
 - לצורך העניין בשביל ליצור לקוח גם כן נצטרך לשלוח טוקן חוקי של משתמש אחר כך שחייב להיות תמיד משתמש אחד לפחות
 <br/>
--סכמת המשתמש החדש צריכה להיות עטופה בסוגריים מרובעים בהתאם לSCHEMA
+-  סכמת המשתמש החדש צריכה להיות עטופה בסוגריים מרובעים בהתאם לסכמה 
+<br/>
 <br/>
 
 - curl -X POST http://localhost:3001 -H "Content-Type: application/json" -H "Authorization: Bearer {token} -d '[new customer schema]'
